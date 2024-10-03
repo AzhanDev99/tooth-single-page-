@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+
+}
+.navbar{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 3%;
+}
+
+
+
+.navbar-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 500;
+}
+.navbar-right i {
+
+    border-radius: 25px;
+    padding: 4px 9px;
+    border: 2px solid black;
+}
+.navbar-right h5{
+    border-radius: 25px;
+    padding: 4px 9px;
+    border: 2px solid black;
+}
+
+
+
+
+.navbar-middle{
+    display: flex;
+    gap: 10px;
+}
+.navbar-middle h1{
+    font-weight: 600;
+    font-size: 25px;
+
+}
+
+.navbar-middle img {
+    margin-left: 10px;
+    background-color: orangered;
+    object-fit: cover;
+    height: 24px;
+    width: 27px;
+    border-radius: 44px;
+    padding: 4px 6px;
+}
+
+.navbar-left button{
+    padding:5px 10px;
+    border-radius: 50px;
+    border:2px solid black;
+    font-size: 17px;
+
+}
+
+
+
+.navbar-left #Sign-Up { 
+    color: white;
+    background-color: orangered ;
+}
+
+
+
+
+
+
+
+
+/* .bottom{
+    display: flex;
+    background-color: blue;
+}
+
+
+.bottom-left{
+    justify-content: end;
+    width: 180px ;
+    height: 25px;
+    background-color: black;
+    color: black;
+    margin-top: 485px;
+    margin-left: 20px;
+}
+
+.bottom-right-top {
+    margin-top: 413px;
+    margin-left: 1015px;
+}
+
+.bottom-right-bottom {
+    margin-top: 9px;
+    margin-left: 989px;
+} */
+
+.container{
+    font-size: 55px;
+    height: 110px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.container h1{
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    /* padding: 0px 10%; */
+}
+
+.container img{
+    height: 350px;
+    width: 300px;
+    position: absolute;
+    object-fit: cover;
+    border-radius: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.container .img1.img2.img3:hover{
+   transform: none;
+}
+
+.container .img1{
+    transform: translate(-50%,-50%) rotate(-37deg);
+}
+.container .img2{
+    transform: translate(-50%,-50%) rotate(-27deg);
+}
+.container .img3{
+    transform: translate(-50%,-50%) rotate(-17deg);
+}
+/* .container .img4{
+    transform: translate(-50%,-50%) rotate(-10deg);
+} */
+
+.bottom .bottom-text-left{
+    position: absolute;
+    font-size: 15px;
+    bottom: 5%;
+    left: 4%;
+}
+
+
+
+.bottom i{
+    position: absolute;
+    font-size: 25px;
+    bottom: 10%;
+}
+#facebookicon{
+    right: 12%;
+}
+#instaicon{
+    right: 9%;
+}
+#youtubeicon{
+    right: 6%;
+}
+.bottom .bottom-text-right{
+    position: absolute;
+    font-size: 15px;
+    bottom: 5%;
+    right: 4%;
+    /* background-color: black; */
+}
